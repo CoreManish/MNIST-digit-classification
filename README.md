@@ -17,3 +17,13 @@ In an RGB image, a single $3 \times 3$ filter must look at 3 channels simultaneo
     * `python3.12 -m venv myenv312` to create virtual environment. currently tensorflow support up to python 3.12
     * `source ./myenv312/bin/activate` to activate virtual environment.
     * `pip install tensorflow[and-cuda]` install tensorflow with GPU support. takes more than 3GB data
+
+
+## my library installation
+* `python3.12 -m venv myenv312` to create virtual environment. currently tensorflow support up to python 3.12
+* `source ./myenv312/bin/activate` to activate virtual environment.
+* `pip install tensorflow[and-cuda]` install tensorflow with GPU support. takes more than 3GB data
+* `pip install matplotlib` for ploting image
+* `pip install -U scikit-learn`
+* `pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126` it is also large size
+* 
